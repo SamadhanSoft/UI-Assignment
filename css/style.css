@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.assignment-page{
+    width:100%;
+    animation: backgroundFade 5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    overflow: hidden;
+}
+
+@keyframes backgroundFade {
+    0% {
+        background-color: #ECF8FB;
+    }
+    100% {
+        background-color: #EFEFEF;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 32px;
+    line-height: 32px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.m0{
+    margin-top: 0px;
+}
+.m-b20 {
+    margin-bottom: 20px;
+}
+
+.m-b25 {
+    margin-bottom: 25px;
+}
+
+.m-b30 {
+    margin-bottom: 30px;
+}
+button{
+    cursor: pointer;
+}
+
+input.form-control.error {
+    border-color: #D50303;
+}
+/*Font*/
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/bg.png);
+    width: 100%;
+    padding: 0px 0px 60px;
+}
+
+.header-box {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #545253;
+    color: #fff;
+}
+.main-header span {
+    font-size: 12px;
+    display: inline-block;
+    padding: 2px 0px 0px;
+}
+.form-control {
+    max-width: 561px;
+    width: 100%;
+    border: 1px solid #D8D8D8;
+    border-top: 2px solid #D8D8D8;
+    border-radius: 4px;
+    padding: 6px 10px;
+    outline: none;
+    height: 50px;
+    margin: 10px 0px 0px;
+}
+
+.inline-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content {
+    max-width: 670px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        /* soft base shadow */
+        0 10px 15px rgba(0, 0, 0, 0.1),
+        /* deeper layer */
+        0 20px 25px rgba(0, 0, 0, 0.05);
+    /* extra depth */
+    background: #fff;
+}
+
+.main-content button {
+    margin: 30px 0px;
+    background: #F6931D;
+    height: 48px;
+    border-radius: 30px;
+    border-style: hidden;
+    max-width: 334px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.savings-box {
+    max-width: 404px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 3px solid #A0BC57; */
+    padding: 15px;
+    margin: 50px auto 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: url(../images/reactangle-box.png) no-repeat;
+}
+.savings-inner-box .p-text{
+    margin: 0px 0px 6px;
+}
+.savings-inner-box {
+        background: #fff;
+        padding: 10px;
+        z-index: 1;
+}
+.savings-box h4{
+    font-weight: 500;
+    font-size: 18px;
+    color: #545253;
+}
+.savings-inner-box p:last-child{
+    background-color: pink;
+}
+.savings-box h6{
+    color: #A0BC57;
+    font-size: 14px;
+}
+.icon-bg {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: -17px;
+    display: flex;
+    justify-content: center;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.font-1{
+    color: #D3D3D3;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 28px;
+}
+.savings-inner-box a {
+    color: #6EB7C2;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+::placeholder {
+    color: #D3D3D3;
+    opacity: 1; /* Firefox */
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: #D3D3D3;
+    font-weight: normal;
+    font-size: 14px;
+
+  }
+
+  .two-inpt{
+    display: flex;
+    justify-content: right;
+    max-width: 561px;
+    width: 100%;
+    margin: 0 auto;
+}
+.two-inpt .form-control:last-child {
+    max-width: 180px;
+    width: 100%;
+}
+.two-inpt .form-control:first-child {
+    margin-right: 30px;
+    max-width: 350px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .assignment-page{
+        padding:0px 10px;
+    }
+    .form-control{
+        max-width: 100%;
+        width: calc(100% - 30px);
+        margin: 5px 15px;
+        
+    }
+    .two-inpt .form-control:first-child{
+        margin-right: 0px;;
+    }
+    .main-content button{
+        width: calc(100% - 20px);
+        margin: 30px auto;
+    }
+    .savings-box {
+        /* width: calc(100% - 87px); */
+        margin: 50px auto;
+        height: auto;
+        max-width: 360px;
+        width: 100%;
+        background-size: contain;
+    }
+    
+    .savings-inner-box p{
+        font-size: 14px;
+    }
+    .font-1{
+        font-size: 18px !important;
+        line-height: 20px;
+    }
+    @media only screen and (max-width: 400px) {
+        .savings-box {
+            /* width: calc(100% - 87px); */
+            margin: 50px auto;
+            height: auto;
+            max-width: 326px;
+            width: 100%;
+            background-size: contain;
+        }
+        .savings-inner-box p{
+            font-size: 12px;
+        }
+        .font-1{
+            font-size: 14px !important;
+            line-height: 16px;
+        }
+    }
+  }
+
+ 
